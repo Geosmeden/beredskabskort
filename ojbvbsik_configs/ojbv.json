@@ -1,0 +1,81 @@
+{
+	
+"cssFiles": [
+       "gc_embed_custom.css"
+],	
+		
+  "baseLayers": [
+				
+
+		{"id": "dtkSkaermkortDaempet", "name": "DTK Skærmkort, dæmpet"},
+		
+		{
+            "id": "geodk.bright",
+            "name": "GeoDanmark kort, lavkon",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+		
+		{"id": "osm", "name": "Open Street Map"},
+
+		{
+            "id": "luftfotoserier.geodanmark_2019_12_5cm",
+            "name": "Luftfoto 2019",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            }
+        },
+		
+		{
+            "id": "luftfotoserier.geodanmark_2018_12_5cm",
+            "name": "Luftfoto 2018",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            }
+        },
+        {
+            "id": "luftfotoserier.geodanmark_2017_12_5cm",
+            "name": "Luftfoto 2017",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            }
+        },
+        {
+            "id": "luftfotoserier.geodanmark_2016_12_5cm",
+            "name": "Luftfoto 2016",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            }
+		}
+        
+	],
+
+"brandName": "ØJBV",
+
+"aboutBox": "Østjyllands Brandvæaen",
+
+"searchConfig": {"komkode": ["727","741","746","751"]}
+
+}
+
