@@ -1,4 +1,4 @@
-{
+t{
 
 "schemata": [
     "public",
@@ -76,9 +76,9 @@
         
 	],
 
-"brandName": "ØJBV",
+"brandName": "Operationscenter",
 
-"aboutBox": "Østjyllands Brandvæsen",
+"aboutBox": "GIS for fælles Operationscenter for Østjyllands Brandvæsen og Beredskab & Sikkerhed",
 
 "searchConfig": {"komkode": "727,741,746,751"}
 
