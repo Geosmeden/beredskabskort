@@ -6,6 +6,13 @@
 	"tag:plan"	
 ],
 	
+"enabledExtensions": [
+        "embed"
+    ],
+"template": "embed.tmpl",
+"vectorMultiSelect": true,
+"featureInfoTableOnMap": true
+	
 "cssFiles": [
        "gc_embed_custom.css"
 ],	
