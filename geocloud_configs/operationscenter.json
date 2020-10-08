@@ -84,12 +84,8 @@
 
 "searchConfig": {"komkode": ["727","741","746","751","706","707","710","730"]},
 
-"enabledExtensions": [
-        "embed"
-    ],
-"template": "embed.tmpl",
+
 "vectorMultiSelect": true,
-"featureInfoTableOnMap": true
 	
 
 }
