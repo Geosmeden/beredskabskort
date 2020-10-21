@@ -14,14 +14,14 @@
     display: none;
 }
 
-.mapcontrols-history-forward {
+#mapcontrols-history-forward {
     height: 10px;
     min-width: 10px;
     width: 10px;
     display: none;
 }
 
-.zoom-default-btn {
+#zoom-default-btn {
     height: 10px;
     min-width: 10px;
     width: 10px;
