@@ -28,13 +28,16 @@
     display: none;
 }
 
-#btn-fab {
+#btn {
     height: 10px;
     min-width: 10px;
     width: 10px;
     display: none;
 }
 
+.btn.btn-fab, .input-group-btn .btn.btn-fab {
+    border-radius: 30%;
+}
 
 /* Tekst størrelser og farve og padding i info*/
 .h1, .h2, .h3, .h4, .body, h1, h2, h3, h4, .h5, .h6 {
