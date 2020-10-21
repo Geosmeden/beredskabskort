@@ -146,10 +146,9 @@ a, a:focus, a:hover {
 
 /* lukke kryds i standard vidi for ekstrafunktioner*/
 .close {
-    float: left;
     text-shadow: 0 1px 0 #fff;
     filter: alpha(opacity=20);
-    opacity: .8;
+    opacity: .9;
 }
 
 
