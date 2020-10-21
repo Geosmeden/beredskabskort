@@ -6,7 +6,7 @@
 }
 
 
-/* skjul kontroller i kortet */
+/* skjul kontroller i embed kortet */
 #mapcontrols-history-backward {
     height: 10px;
     min-width: 10px;
@@ -38,6 +38,7 @@
 .btn.btn-fab, .input-group-btn .btn.btn-fab {
     border-radius: 30%;
 }
+
 
 /* Tekst størrelser og farve og padding i info*/
 .h1, .h2, .h3, .h4, .body, h1, h2, h3, h4, .h5, .h6 {
