@@ -7,7 +7,7 @@
 
 
 /* skjul kontroller i kortet */
-.mapcontrols-history-backward {
+#mapcontrols-history-backward {
     height: 10px;
     min-width: 10px;
     width: 10px;
