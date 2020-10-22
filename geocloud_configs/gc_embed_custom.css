@@ -10,13 +10,15 @@
     display: none;
 }
 
-#mapcontrols-history-forward {
+.mapcontrols-history-forward {
    display: none;
 }
 
 #zoom-default-btn {
     display: none;
 }
+
+
 
 .btn.btn-fab, .input-group-btn .btn.btn-fab {
     border-radius: 30%;
