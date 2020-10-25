@@ -11,6 +11,11 @@
     padding: 8px 1px;
 }
 
+.dialog-bottom {
+    padding: 9px 10px;
+    border-radius: 10px;
+}
+
 /* skjul kontroller i embed kortet */
 .mapcontrols-history-backward {
     display: none;
@@ -195,11 +200,6 @@ element.style {
     margin-bottom: 1px;
 }
 
-.dialog-bottom {
-    padding: 9px 10px;
-    border-radius: 10px;
-}
-
 body {
     font-size: 12px;
     line-height: 1.02857143;
@@ -214,6 +214,10 @@ element.style {
 .modal-body {
     position: relative;
     padding: 5px;
+}
+
+.modal-header h3 {
+    font-size: 15px;
 }
 
 .form-control {
