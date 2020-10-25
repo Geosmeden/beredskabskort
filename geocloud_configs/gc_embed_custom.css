@@ -4,10 +4,6 @@
     padding: 15px;
 }
 
-/* Skjul rød markering af valgt raster objekt */
-.leaflet-interactive {
-    display: none;
-}
 
 /* skjul kontroller i embed kortet */
 .mapcontrols-history-backward {
