@@ -7,7 +7,7 @@
 
 /* Padding legend */
 
-#dialog-bottom {
+#legend-dialog.dialog-bottom.fade-then-dragging {
     padding: 1px 1px;
 }
 
