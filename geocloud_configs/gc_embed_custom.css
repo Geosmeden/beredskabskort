@@ -4,6 +4,10 @@
     padding: 15px;
 }
 
+/* Skjul rød markering af valgt raster objekt */
+.leaflet-image-layer.leaflet-interactive {
+    display: none;
+}
 
 /* Padding legend */
 
