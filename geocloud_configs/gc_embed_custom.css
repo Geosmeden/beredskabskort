@@ -4,11 +4,7 @@
     padding: 15px;
 }
 
-/* Skjul rød markering af valgt raster objekt */
-.leaflet-interactive {
-    fill-opacity: 0.001;
-stroke-opacity: 0.01;
-}
+
 
 /* Padding legend */
 
