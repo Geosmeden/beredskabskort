@@ -5,8 +5,8 @@
 }
 
 /* Skjul rød markering af valgt raster objekt */
-#leaflet-image-layer.leaflet-interactive {
-    display: none;
+.leaflet-interactive {
+    fill-opacity="0.01";
 }
 
 /* Padding legend */
