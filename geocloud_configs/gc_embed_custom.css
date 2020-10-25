@@ -5,11 +5,7 @@
 }
 
 /* Skjul rød markering af valgt raster objekt */
-#leaflet-interactive {
-    fill-opacity="0.01";
-}
-
-.leaflet-image-layer.leaflet-interactive, .leaflet-marker-icon.leaflet-interactive, .leaflet-pane>svg path.leaflet-interactive {
+.leaflet-interactive {
     fill-opacity: 0.001;
 }
 
