@@ -14,7 +14,7 @@
 /* skjul kontroller i embed kortet */
 .mapcontrols-history-backward {
     display: none;
-
+}
 
 .mapcontrols-history-forward {
    display: none;
