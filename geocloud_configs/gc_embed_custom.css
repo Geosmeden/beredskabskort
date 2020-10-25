@@ -4,7 +4,10 @@
     padding: 15px;
 }
 
-
+.leaflet-interactive {
+    fill-opacity: 0.1;
+stroke-opacity: 0.1;
+}
 
 /* Padding legend */
 
