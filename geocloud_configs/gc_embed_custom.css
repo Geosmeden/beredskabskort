@@ -39,8 +39,12 @@
 /* Tekst størrelser og farve og padding i info*/
 .h1, .h2, .h3, .h4, .body, h1, h2, h3, h4, .h5, .h6 {
     font-family: Roboto,Helvetica,Arial,sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color: #14324C;
+}
+
+.modal-header h3 {
+    font-size: 16px;
 }
 
 .body {
@@ -57,7 +61,7 @@
 .checkbox label, .radio label, label {
     font-size: 13px;
     line-height: 1.02857143;
-    color: #000000;
+    color: #14324C;
     font-weight: 500;
 }
 
@@ -214,10 +218,6 @@ element.style {
 .modal-body {
     position: relative;
     padding: 5px;
-}
-
-.modal-header h3 {
-    font-size: 15px;
 }
 
 .form-control {
