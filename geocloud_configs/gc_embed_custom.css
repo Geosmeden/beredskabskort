@@ -5,7 +5,7 @@
 }
 
 /* Skjul rød markering af valgt raster objekt */
-.leaflet-image-layer.leaflet-interactive {
+#leaflet-image-layer.leaflet-interactive {
     display: none;
 }
 
