@@ -5,10 +5,16 @@
 }
 
 
+/* Padding legend */
+
+.dialog-bottom {
+    padding: 10px 5px;
+}
+
 /* skjul kontroller i embed kortet */
 .mapcontrols-history-backward {
     display: none;
-}
+
 
 .mapcontrols-history-forward {
    display: none;
