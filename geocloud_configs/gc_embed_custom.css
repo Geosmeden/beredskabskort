@@ -10,6 +10,11 @@
 stroke-opacity: 0.01;
 }
 
+/* baggrundsfarve alarmtabel */
+.fixed-table-body {
+    background-color: #aaa;
+}
+
 /* Padding legend */
 
 #legend-dialog.dialog-bottom.fade-then-dragging {
