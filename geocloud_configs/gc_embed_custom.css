@@ -18,6 +18,14 @@ stroke-opacity: 0.01;
   box-shadow: none;
   }
 
+.transparent-tooltip {
+  min-width: 100px;
+  left: -50px;
+  text-align: center;
+  min-height: 1.2em;
+  border: 1px solid red;
+}
+
 /* baggrundsfarve alarmtabel */
 .fixed-table-body {
     background-color: #bbb;
