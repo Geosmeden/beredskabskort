@@ -4,11 +4,19 @@
     padding: 15px;
 }
 
+/* Leaflet styling */
 /* skjul markering for valgt objekt */
 .leaflet-interactive {
     fill-opacity: 0.01;
 stroke-opacity: 0.01;
 }
+
+/* skjul label baggrund */
+.leaflet-tooltip.transparent-tooltip {
+  background-color: transparent;
+  border: transparent;
+  box-shadow: none;
+  }
 
 /* baggrundsfarve alarmtabel */
 .fixed-table-body {
