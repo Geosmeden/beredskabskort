@@ -18,7 +18,7 @@ stroke-opacity: 0.01;
     box-shadow: 0 3px 14px rgba(0,0,0,0);
     font-size: 14px;	
     font-weight: 900;
-    -webkit-text-stroke: 1px white;
+   
   }
 
 .leaflet-tooltip.transparent-tooltip {
