@@ -6,7 +6,7 @@
 	"tag:plan"	
 ],
 	
-"crossMultiSelect": true,
+"crossMultiSelect": false,
 	
 "cssFiles": [
        "gc_embed_custom.css"
