@@ -11,6 +11,9 @@
 stroke-opacity: 0.01;
 }
 
+.js-toggle-search {
+     display: inline !important;
+}
 
 
 /* baggrundsfarve alarmtabel */
