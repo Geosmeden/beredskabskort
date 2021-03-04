@@ -11,7 +11,9 @@
 "cssFiles": [
        "gc_embed_custom.css"
 ],	
-		
+	
+"enabledPrints": ["ojbvprint"],	
+	
  "baseLayers": [
         {
             "type": "wms",
