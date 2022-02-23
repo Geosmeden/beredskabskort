@@ -17,7 +17,8 @@ stroke-opacity: 0.01;
 
 /* baggrundsfarve alarmtabel */
 .fixed-table-body {
-    color: #BABABA;
+    color: #000000;	
+    background-color: #BABABA;
 }
 
 /* Padding legend */
