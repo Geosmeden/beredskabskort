@@ -9,7 +9,7 @@
 "crossMultiSelect": false,
 	
 "cssFiles": [
-       "gc_embed_custom.css"
+       "gc_embed_custom_ojbv.css"
 ],	
 	
 "enabledPrints": ["print"],	
