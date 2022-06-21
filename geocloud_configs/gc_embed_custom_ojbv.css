@@ -15,6 +15,14 @@ stroke-opacity: 0.01;
         font-size: 11px;
     }
 
+/* logo i printhoved */
+#print-header-logo {
+    background-image: url('https://raw.githubusercontent.com/Geosmeden/rmg/main/logo/ojbv_logo.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 80%;
+}
+
 .js-toggle-search {
      display: inline !important;
 }
