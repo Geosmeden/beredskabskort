@@ -222,7 +222,7 @@ button.btn.btn-primary.btn-sm {
 
 /* QGIS server legend image*/
 img {
-    max-width: 75%;
+    max-width: 100%;
 }
 
 a, a:focus, a:hover {
