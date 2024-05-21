@@ -10,7 +10,7 @@ stroke-opacity: 0.8;
 /* Tooltip styling situationsbillede */
 .custom-tooltip {
     font-size: 10px; /* Adjust the text size */
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and transparency */
+    background-color: rgba(255, 100, 100, 0.8); /* Adjust the background color and transparency */
     border: 1px solid rgba(0, 0, 0, 0.2); /* Adjust the border */
     padding: 2px 2px; /* Adjust the padding */
     border-radius: 3px; /* Adjust the border radius */
