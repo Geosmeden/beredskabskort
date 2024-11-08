@@ -7,6 +7,11 @@
 stroke-opacity: 0.8;
 }
 
+/* ramme og overskrift farve i tabel */
+.table>:not(caption)>*>* {
+background-color: #c1c1c1;
+}
+
 /* Gør knapper større i højre side */
 .leaflet-touch .leaflet-bar a {
     width: 35px;
