@@ -7,6 +7,14 @@
 stroke-opacity: 0.8;
 }
 
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
 /* Tooltip styling situationsbillede */
 .custom-tooltip {
     font-size: 10px; /* Adjust the text size */
