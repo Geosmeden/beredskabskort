@@ -1,0 +1,180 @@
+{
+  "embed_opsaetning":[
+		{
+            "id": "osm",
+            "name": "Open Street Map",
+            "opacity": 0.5,
+            "inDrawer": true,
+            "thumbnail": "https://raw.githubusercontent.com/Geosmeden/beredskabskort/master/baggrundskort_ikoner/osm.png"
+        },
+        {
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
+            "layers": [
+                "orto_foraar"
+            ],
+            "inDrawer": true,
+            "thumbnail": "https://raw.githubusercontent.com/Geosmeden/beredskabskort/master/baggrundskort_ikoner/ortofoto.png",
+            "id": "orto_foraar",
+            "name": "Luftfoto, nyeste",
+            "description": "GeoDanmark nyeste ortofoto.",
+            "attribution": "GeoDanmark",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 22
+        },
+		{
+            "type": "XYZ",
+            "url": "https://tiles1-bc7b4da77e971c12cb0e069bffcf2771.skobblermaps.com/TileService/tiles/2.0/01021113210/2/{z}/{x}/{y}.png",
+            "id": "skobblernat",
+            "name": "Open Street Map, nat",
+            "inDrawer": true,
+            "thumbnail": "https://raw.githubusercontent.com/Geosmeden/beredskabskort/master/baggrundskort_ikoner/osmnat.png",
+            "description": "skob OSM nat",
+            "attribution": "&copy; Openstreetmap/Skobbler",
+            "minZoom": 1,
+            "maxZoom": 20,
+            "maxNativeZoom": 18
+        }
+  ],
+"fuld_opsaetning":[
+		{
+            "id": "osm",
+            "name": "Open Street Map",
+            "opacity": 0.5
+        },
+		{
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
+            "layers": [
+                "Basis_kort",
+                "Stednavne_basiskort",
+                "Vejnavne_basiskort",
+                "Husnummer"
+            ],
+            "id": "basis_kort",
+            "name": "GeoDK Baggrundskort",
+            "description": "GeoDanmark sagsbehandlings kort fra kortforsyningen, det officielle kort til sagsbehandling, kortet opdateres løbende.",
+            "attribution": "GeoDanmark",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 22
+        },
+        {
+            "id": "dtkSkaermkortDaempet",
+            "name": "DTK Skærmkort, dæmpet"
+        },
+        {
+            "type": "XYZ",
+            "url": "https://tiles1-bc7b4da77e971c12cb0e069bffcf2771.skobblermaps.com/TileService/tiles/2.0/01021113210/2/{z}/{x}/{y}.png",
+            "id": "skobblernat",
+            "name": "Open Street Map, nat",
+            "description": "skob OSM nat",
+            "attribution": "&copy; Openstreetmap/Skobbler",
+            "minZoom": 1,
+            "maxZoom": 20,
+            "maxNativeZoom": 18
+        },
+        {
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
+            "layers": [
+                "orto_foraar"
+            ],
+            "id": "orto_foraar",
+            "name": "Luftfoto 2024",
+            "description": "GeoDanmark nyeste ortofoto.",
+            "attribution": "GeoDanmark",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 22
+        },
+		{
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
+            "layers": [
+                "geodanmark_2023_12_5cm"
+            ],
+            "id": "geodanmark_2023_12_5cm",
+            "name": "Luftfoto 2023",
+            "description": "GeoDanmark nyeste ortofoto.",
+            "attribution": "GeoDanmark",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 22
+        },
+        {
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
+            "layers": [
+                "geodanmark_2022_12_5cm"
+            ],
+            "id": "geodanmark_2022_12_5cm",
+            "name": "Luftfoto 2022",
+            "description": "GeoDanmark nyeste ortofoto.",
+            "attribution": "GeoDanmark",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 22
+        },
+        {
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
+            "layers": [
+                "geodanmark_2021_12_5cm"
+            ],
+            "id": "geodanmark_2021_12_5cm",
+            "name": "Luftfoto 2021",
+            "description": "GeoDanmark nyeste ortofoto.",
+            "attribution": "GeoDanmark",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 22
+        },
+        {
+            "id": "luftfotoserier.geodanmark_2020_12_5cm",
+            "name": "Luftfoto 2020",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            }
+        },
+        {
+            "id": "luftfotoserier.geodanmark_2019_12_5cm",
+            "name": "Luftfoto 2019",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            }
+        },
+        {
+            "id": "luftfotoserier.geodanmark_2018_12_5cm",
+            "name": "Luftfoto 2018",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            }
+        },
+        {
+            "id": "luftfotoserier.geodanmark_2017_12_5cm",
+            "name": "Luftfoto 2017",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            }
+        }
+  ]
+
+}
