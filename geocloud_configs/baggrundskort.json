@@ -45,7 +45,7 @@
         },
 		{
             "type": "wms",
-            "url": "https://api.dataforsyningen.dk/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
+            "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
             "layers": [
                 "Basis_kort",
                 "Stednavne_basiskort",
@@ -176,5 +176,6 @@
             }
         }
   ]
+
 
 }
