@@ -11,7 +11,8 @@
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
             "layers": [
-                "orto_foraar"
+                "orto_foraar",
+				"Vejnavne_ortofoto"
             ],
             "inDrawer": true,
             "thumbnail": "https://raw.githubusercontent.com/Geosmeden/beredskabskort/master/baggrundskort_ikoner/ortofoto.png",
@@ -79,7 +80,8 @@
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
             "layers": [
-                "orto_foraar"
+                "orto_foraar",
+				"Vejnavne_ortofoto"
             ],
             "id": "orto_foraar",
             "name": "Luftfoto 2025",
@@ -93,7 +95,8 @@
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
             "layers": [
-                "geodanmark_2024_12_5cm"
+                "geodanmark_2024_12_5cm",
+				"Vejnavne_ortofoto"
             ],
             "id": "geodanmark_2024_12_5cm",
             "name": "Luftfoto 2024",
@@ -107,7 +110,8 @@
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
             "layers": [
-                "geodanmark_2023_12_5cm"
+                "geodanmark_2023_12_5cm",
+				"Vejnavne_ortofoto"
             ],
             "id": "geodanmark_2023_12_5cm",
             "name": "Luftfoto 2023",
@@ -121,7 +125,8 @@
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
             "layers": [
-                "geodanmark_2022_12_5cm"
+                "geodanmark_2022_12_5cm",
+				"Vejnavne_ortofoto"
             ],
             "id": "geodanmark_2022_12_5cm",
             "name": "Luftfoto 2022",
@@ -135,7 +140,8 @@
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
             "layers": [
-                "geodanmark_2021_12_5cm"
+                "geodanmark_2021_12_5cm",
+				"Vejnavne_ortofoto"
             ],
             "id": "geodanmark_2021_12_5cm",
             "name": "Luftfoto 2021",
