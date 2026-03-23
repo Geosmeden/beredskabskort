@@ -11,8 +11,7 @@
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
             "layers": [
-                "orto_foraar",
-				"Vejnavne_ortofoto"
+                "orto_foraar"
             ],
             "inDrawer": true,
             "thumbnail": "https://raw.githubusercontent.com/Geosmeden/beredskabskort/master/baggrundskort_ikoner/ortofoto.png",
