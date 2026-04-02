@@ -101,7 +101,7 @@
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
             "layers": ["geodanmark_2024_12_5cm"],
             "id": "orto_foraar_2024_vejnavn",
-            "name": "Luftfoto med vejnavne",
+            "name": "Luftfoto 2024",
             "description": "Luftfoto 2024",
             "attribution": "GeoDanmark",
             "minZoom": 4,
