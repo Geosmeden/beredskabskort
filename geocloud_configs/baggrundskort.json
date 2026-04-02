@@ -190,7 +190,7 @@
         },
         {
             "id": "luftfotoserier.geodanmark_2020_12_5cm",
-            "name": "Luftfoto 2020 test vejnavne",
+            "name": "Luftfoto 2020",
             "db": "baselayers",
             "host": "https://dk.gc2.io",
             "config": {
