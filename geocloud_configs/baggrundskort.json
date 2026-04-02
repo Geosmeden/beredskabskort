@@ -16,12 +16,21 @@
             "inDrawer": true,
             "thumbnail": "https://raw.githubusercontent.com/Geosmeden/beredskabskort/master/baggrundskort_ikoner/ortofoto.png",
             "id": "orto_foraar",
-            "name": "Luftfoto, nyeste",
+            "name": "Luftfoto, nyeste mvn",
             "description": "GeoDanmark nyeste ortofoto.",
             "attribution": "GeoDanmark",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 22
+            "maxNativeZoom": 22,
+            "overlays": [
+                {
+                   "type": "wms",
+                    "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
+                    "layers": ["Vejnavne_ortofoto"],
+                    "transparent": true,
+                    "format": "image/png"
+                }
+             ]
         },
 		{
             "type": "XYZ",
