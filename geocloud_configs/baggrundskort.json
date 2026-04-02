@@ -118,64 +118,98 @@
              ]
     	},
 		{
-            "type": "wms",
-            "url": "https://wms.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?apikey=Zt02Ykab6kqUQZDZO36dksGBb4tQyMvO5udJGYbVTebbMr5vx1Y7PoEcdevFIuXZVBHsAmTiceUSNzonAMQHugYFsvlzpicLp&SERVICE=WMS&VERSION=1.3.0&CRS=EPSG:25832",
-            "layers": ["orto_foraar"],
-            "id": "orto_foraar_nyeste_wms",
-            "name": "Nyeste Ortofoto wms singletile",
-            "description": "Nyeste Ortofoto med vejnavne",
-            "attribution": "GeoDanmark",
-    		"singleTile": true,
-            "minZoom": 4,
-            "maxZoom": 22,
-            "maxNativeZoom": 22,
+            "id": "luftfotoserier.geodanmark_2025_12_5cm",
+            "name": "Luftfoto 2025 test vejnavne",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            },
             "overlays": [
                 {
-                   "type": "wms",
+                   	"type": "wms",
                     "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
                     "layers": ["Vejnavne_ortofoto"],
                     "transparent": true,
                     "format": "image/png"
                 }
              ]
-    	},
+        },
 		{
-            "type": "XYZ",
-            "url": "https://wmts.datafordeler.dk/GeoDanmarkOrto/orto_foraar_webm/1.0.0/WMTS?apikey=Zt02Ykab6kqUQZDZO36dksGBb4tQyMvO5udJGYbVTebbMr5vx1Y7PoEcdevFIuXZVBHsAmTiceUSNzonAMQHugYFsvlzpicLp",
-            "layers": ["orto_foraar_webm"],
-            "id": "orto_foraar_nyeste_webm",
-            "name": "Nyeste Ortofoto webm wmts",
-            "description": "Nyeste Ortofoto med vejnavne",
-            "attribution": "GeoDanmark",
-            "minZoom": 4,
-            "maxZoom": 22,
-            "maxNativeZoom": 22,
+            "id": "luftfotoserier.geodanmark_2024_12_5cm",
+            "name": "Luftfoto 2024 test vejnavne",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            },
             "overlays": [
                 {
-                   "type": "wms",
+                   	"type": "wms",
                     "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
                     "layers": ["Vejnavne_ortofoto"],
                     "transparent": true,
                     "format": "image/png"
                 }
              ]
-    	},
-        {
-            "type": "wms",
-            "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
-            "layers": [
-                "geodanmark_2021_12_5cm"
-            ],
-            "id": "geodanmark_2021_12_5cm",
-            "name": "Luftfoto 2021",
-            "description": "GeoDanmark nyeste ortofoto.",
-            "attribution": "GeoDanmark",
-            "minZoom": 4,
-            "maxZoom": 22,
-            "maxNativeZoom": 22,
+        },
+		{
+            "id": "luftfotoserier.geodanmark_2023_12_5cm",
+            "name": "Luftfoto 2023 test vejnavne",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            },
             "overlays": [
                 {
-                   "type": "wms",
+                   	"type": "wms",
+                    "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
+                    "layers": ["Vejnavne_ortofoto"],
+                    "transparent": true,
+                    "format": "image/png"
+                }
+             ]
+        },
+		{
+            "id": "luftfotoserier.geodanmark_2022_12_5cm",
+            "name": "Luftfoto 2022 test vejnavne",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            },
+            "overlays": [
+                {
+                   	"type": "wms",
+                    "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
+                    "layers": ["Vejnavne_ortofoto"],
+                    "transparent": true,
+                    "format": "image/png"
+                }
+             ]
+        },
+        {
+            "id": "luftfotoserier.geodanmark_2021_12_5cm",
+            "name": "Luftfoto 2021",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            },
+            "overlays": [
+                {
+                   	"type": "wms",
                     "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
                     "layers": ["Vejnavne_ortofoto"],
                     "transparent": true,
