@@ -81,7 +81,7 @@
             "layers": ["orto_foraar"],
             "id": "orto_foraar_vejnavn",
             "name": "Luftfoto med vejnavne",
-            "description": "Kombination af to WMS-kilder",
+            "description": "Nyeste luftfoto med vejnavne",
             "attribution": "GeoDanmark",
             "minZoom": 4,
             "maxZoom": 22,
@@ -96,66 +96,69 @@
                 }
              ]
     	},
-        {
-            "type": "wms",
-            "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
-            "layers": [
-                "orto_foraar",
-				"Vejnavne_ortofoto"
-            ],
-            "id": "orto_foraar",
-            "name": "Luftfoto 2025",
-            "description": "GeoDanmark nyeste ortofoto.",
-            "attribution": "GeoDanmark",
-            "minZoom": 4,
-            "maxZoom": 22,
-            "maxNativeZoom": 22
-        },
-	 	{
-            "type": "wms",
-            "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
-            "layers": [
-                "geodanmark_2024_12_5cm",
-				"Vejnavne_ortofoto"
-            ],
-            "id": "geodanmark_2024_12_5cm",
-            "name": "Luftfoto 2024",
-            "description": "GeoDanmark nyeste ortofoto.",
-            "attribution": "GeoDanmark",
-            "minZoom": 4,
-            "maxZoom": 22,
-            "maxNativeZoom": 22
-        },
 		{
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
-            "layers": [
-                "geodanmark_2023_12_5cm",
-				"Vejnavne_ortofoto"
-            ],
-            "id": "geodanmark_2023_12_5cm",
-            "name": "Luftfoto 2023",
-            "description": "GeoDanmark nyeste ortofoto.",
+            "layers": ["geodanmark_2024_12_5cm"],
+            "id": "orto_foraar_2024_vejnavn",
+            "name": "Luftfoto med vejnavne",
+            "description": "Luftfoto 2024",
             "attribution": "GeoDanmark",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 22
-        },
-        {
+            "maxNativeZoom": 22,
+            "overlays": [
+                {
+                   "type": "wms",
+                    "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
+                    "layers": ["Vejnavne_ortofoto"],
+                    "transparent": true,
+                    "format": "image/png"
+                }
+             ]
+    	},
+		{
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
-            "layers": [
-                "geodanmark_2022_12_5cm",
-				"Vejnavne_ortofoto"
-            ],
-            "id": "geodanmark_2022_12_5cm",
-            "name": "Luftfoto 2022",
-            "description": "GeoDanmark nyeste ortofoto.",
+            "layers": ["geodanmark_2023_12_5cm"],
+            "id": "orto_foraar_2023_vejnavn",
+            "name": "Luftfoto 2023",
+            "description": "Nyeste Ortofoto med vejnavne",
             "attribution": "GeoDanmark",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 22
-        },
+            "maxNativeZoom": 22,
+            "overlays": [
+                {
+                   "type": "wms",
+                    "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
+                    "layers": ["Vejnavne_ortofoto"],
+                    "transparent": true,
+                    "format": "image/png"
+                }
+             ]
+    	},
+		{
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
+            "layers": ["geodanmark_2022_12_5cm"],
+            "id": "orto_foraar_2022_vejnavn",
+            "name": "Luftfoto 2022",
+            "description": "Nyeste Ortofoto med vejnavne",
+            "attribution": "GeoDanmark",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 22,
+            "overlays": [
+                {
+                   "type": "wms",
+                    "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
+                    "layers": ["Vejnavne_ortofoto"],
+                    "transparent": true,
+                    "format": "image/png"
+                }
+             ]
+    	},
         {
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?version=1.1.1&token=a402e4600766d133387084ed0abce3d4",
