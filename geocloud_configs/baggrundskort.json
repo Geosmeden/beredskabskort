@@ -119,7 +119,7 @@
     	},
 		{
             "type": "wms",
-            "url": "https://wms.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?apikey=Zt02Ykab6kqUQZDZO36dksGBb4tQyMvO5udJGYbVTebbMr5vx1Y7PoEcdevFIuXZVBHsAmTiceUSNzonAMQHugYFsvlzpicLp&SERVICE=WMS&VERSION=1.3.0",
+            "url": "https://wms.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?apikey=Zt02Ykab6kqUQZDZO36dksGBb4tQyMvO5udJGYbVTebbMr5vx1Y7PoEcdevFIuXZVBHsAmTiceUSNzonAMQHugYFsvlzpicLp&SERVICE=WMS&VERSION=1.3.0&CRS=EPSG:25832",
             "layers": ["orto_foraar"],
             "id": "orto_foraar_nyeste_wms",
             "name": "Nyeste Ortofoto wms st",
