@@ -139,7 +139,7 @@
              ]
     	},
 		{
-            "type": "wms",
+            "type": "XYZ",
             "url": "https://wmts.datafordeler.dk/GeoDanmarkOrto/orto_foraar_webm/1.0.0/WMTS?apikey=Zt02Ykab6kqUQZDZO36dksGBb4tQyMvO5udJGYbVTebbMr5vx1Y7PoEcdevFIuXZVBHsAmTiceUSNzonAMQHugYFsvlzpicLp",
             "layers": ["orto_foraar_webm"],
             "id": "orto_foraar_nyeste_webm",
