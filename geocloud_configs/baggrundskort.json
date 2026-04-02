@@ -186,13 +186,22 @@
         },
         {
             "id": "luftfotoserier.geodanmark_2020_12_5cm",
-            "name": "Luftfoto 2020",
+            "name": "Luftfoto 2020 m vejnavne",
             "db": "baselayers",
             "host": "https://dk.gc2.io",
             "config": {
                 "maxZoom": 26,
                 "maxNativeZoom": 20,
-                "attribution": "&copy; SDFE"
+                "attribution": "&copy; SDFE",
+            	"overlays": [
+                	{
+                   		"type": "wms",
+                    	"url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=a402e4600766d133387084ed0abce3d4",
+                    	"layers": ["Vejnavne_ortofoto"],
+                    	"transparent": true,
+                    	"format": "image/png"
+                	}
+             	]
             }
         },
         {
