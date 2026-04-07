@@ -10,7 +10,7 @@
         {
         "type": "WMTS",
         "thumbnail": "https://mapcentia.github.io/vidi_configs_common/orto.png",
-        "url": "https://api.dataforsyningen.dk/orto_foraar_webm_DAF?token=a402e4600766d133387084ed0abce3d4",
+        "url": "https://api.dataforsyningen.dk/orto_foraar_webm_DAF?token=0b2892e76cf602dccdac0a9fc0f6a715&",
         "tileMatrixSet": "DFD_GoogleMapsCompatible",
         "layer": "orto_foraar_webm",
         "id": "wmts",
@@ -85,7 +85,7 @@
         {
         "type": "WMTS",
         "thumbnail": "https://mapcentia.github.io/vidi_configs_common/orto.png",
-        "url": "https://api.dataforsyningen.dk/orto_foraar_webm_DAF?token=a402e4600766d133387084ed0abce3d4",
+        "url": "https://api.dataforsyningen.dk/orto_foraar_webm_DAF?token=0b2892e76cf602dccdac0a9fc0f6a715&",
         "tileMatrixSet": "DFD_GoogleMapsCompatible",
         "layer": "orto_foraar_webm",
         "id": "wmts",
