@@ -244,26 +244,6 @@
                 "maxNativeZoom": 20,
                 "attribution": "&copy; SDFE"
             }
-        },
-	    {
-            "type": "wms",
-            "url": "https://api.dataforsyningen.dk/wms/enc_25832?token=e02232d711623e510e861fd23801cc09&crs=EPSG:25832",
-            "layers": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7"
-            ],
-            "id": "soe_kort",
-            "name": "GST Søkort",
-            "description": "Søkort fra Geodatastyrelsen",
-            "attribution": "Geodatastyrelsen",
-            "minZoom": 4,
-            "maxZoom": 22,
-            "maxNativeZoom": 22
         }
   ]
 
