@@ -247,7 +247,7 @@
         },
 	    {
             "type": "wms",
-            "url": "https://api.dataforsyningen.dk/wms/enc_25832?token%3De02232d711623e510e861fd23801cc09&crs=EPSG:25832",
+            "url": "https://api.dataforsyningen.dk/wms/enc_25832?token=e02232d711623e510e861fd23801cc09&crs=EPSG:25832",
             "layers": [
                 "1",
                 "2",
