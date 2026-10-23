@@ -3,7 +3,7 @@
 		{
             "id": "osm",
             "name": "Open Street Map",
-            "opacity": 0.5,
+            "opacity": 100,
             "inDrawer": true,
             "thumbnail": "https://raw.githubusercontent.com/Geosmeden/beredskabskort/master/baggrundskort_ikoner/osm.png"
         },
