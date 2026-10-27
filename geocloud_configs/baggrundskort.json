@@ -50,7 +50,7 @@
 		{
             "id": "osm",
             "name": "Open Street Map",
-            "opacity": 0.5
+            "opacity": 100
         },
 		{
             "type": "wms",
